@@ -3,16 +3,16 @@
 # Gets parameters
 param(
     [parameter(Mandatory=$true)]
-    [string]$FirstName
+    [string]$FirstName,
 
     [parameter(Mandatory=$true)]
-    [string]$LastName
+    [string]$LastName,
 
     [parameter(Mandatory=$true)]
-    [string]$UserName
+    [string]$UserName,
 
     [parameter(Mandatory=$true)]
-    [string]$OU
+    [string]$OU,
 
     [parameter(Mandatory=$true)]
     [string]$Domain
